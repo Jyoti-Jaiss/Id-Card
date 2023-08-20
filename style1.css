@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    }
+    header {
+    background-color: #4047F0;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    }
+    h1 {
+    margin: 0;
+    }
+    .container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+    .left-section,
+    .right-section {
+    padding: 30px;
+    }
+    .header {
+    color: #4047F0;
+    text-align: center;
+    margin-bottom: 20px;
+    }
+    form {
+    display: grid;
+    gap: 10px;
+    }
+    label {
+    font-weight: bold;
+    }
+    input[type="text"],
+    input[type="file"] {
+    padding: 5px;
+    }
+    button {
+    background-color: #4047F0;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    }
+    .card {
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    padding: 20px;
+    }
+    .card-header {
+    background-color: #4047F0;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    }
+    .card-body {
+    display: flex;
+    }
+    .photo {
+    width: 30%;
+    padding-right: 20px;
+    }
+    .photo-image {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    }
+    .details {
+    flex-grow: 1;
+    }
+    p {
+    margin: 10px 0;}
